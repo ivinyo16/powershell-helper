@@ -1,16 +1,16 @@
 # README #
 
-  ## Update local permissions ##
-  Windows by default disallows running powershell scripts, to allow locally created
-  update execution policies to for custom scripts
-  ```
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  ```
-  
-  check status:
-  ```
-  Get-ExecutionPolicy -List
-  ```
+## Update local permissions ##
+Windows by default disallows running powershell scripts, to allow locally created
+update execution policies to for custom scripts
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+check status:
+```
+Get-ExecutionPolicy -List
+```
 
 if wanting to revert back
 ```
