@@ -1,6 +1,11 @@
 # README #
 
 ## Update local permissions ##
+I have worked with Modern Powershell (7.x) which isn't installed by default.
+
+See [setup](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows)
+
+## Update local permissions ##
 Windows by default disallows running powershell scripts, to allow locally created
 update execution policies to for custom scripts
 ```
